@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: rgb(247, 247, 247);
+  background: beige;
   font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
 }
 p,h1,h2,h3{
@@ -54,7 +54,7 @@ h2{
   }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 480px){
   .hurigana_top{
     font-size: .4rem;
     letter-spacing: 2px;
