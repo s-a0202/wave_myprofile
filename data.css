@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+p,h1,h2,h3{
+  text-align: center;
+}
+.header{
+  margin: 10px 0;
+}
+.hurigana_top{
+  font-size: .5rem;
+  letter-spacing: 2px;
+  color: rgb(0, 119, 255);
+  margin: 0;
+  font-weight: bold;
+}
+h1{
+  color: rgb(0, 119, 255);
+  font-size: 2.5rem;
+  margin: 0;
+}
+h2{
+  color: rgb(255, 0, 76);
+  font-size: 4.5rem;
+  margin: 0;
+}
+.hurigana_bottom{
+  font-size: .8rem;
+  letter-spacing: 2px;
+  color: rgb(255, 0, 76);
+  margin: 0;
+  font-weight: bold;
+}
+.shoukai{
+  color: rgb(255, 0, 76);
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 767px){
+  .margin{
+    background-color: black;
+    width: 25%;
+    height: 825px;
+    display: inline-block;
+  }
+  .margin_left{
+    float: left;
+  }
+  .margin_right{
+    float: right;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .hurigana_top{
+    font-size: .4rem;
+    letter-spacing: 2px;
+    color: rgb(0, 119, 255);
+    margin: 0;
+    font-weight: bold;
+  }
+  h1{
+    color: rgb(0, 119, 255);
+    font-size: 1.7rem;
+    margin: 0;
+  }
+  h2{
+    color: rgb(255, 0, 76);
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .hurigana_bottom{
+    font-size: .3rem;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 76);
+    margin: 0;
+    font-weight: bold;
+  }
+  .shoukai{
+    color: rgb(255, 0, 76);
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+}
